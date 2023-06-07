@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: yellow;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.details h2 {
+    margin-bottom: 20px;
+}
+img.image4 {
+    width: 100%;
+    height: 180px;
+}
+.logo {
+    width: 40%;
+}
+.about-section p {
+    line-height: 20px;
+    text-align: center;
+}
+.about-section button {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 30px;
+}
+img {
+    width: 100%;
+}
+.nav {
+    width: 60%;
+}
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+.service p {
+    line-height: 15px;
+    text-align: center;
+}
+section{
+    
+}
+.about-section {
+    background-image: url(./image/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.about-section h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.service-section{
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service {
+    text-align: center;
+    width: 28%;
+}
+section {
+    margin-bottom: 50px;
+}
+.image2{
+width: 40px;
+height: 30px;
+}
+.about{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(233, 231, 231);
+    width: 100%;
+    padding: 50px;
+}
+.about-us{
+    width: 40%;
+}
+.about-us h3 {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    padding: 30px;
+} 
+.input-box {
+    width: 232px;
+    padding: 8px;
+    outline: none; 
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.service h2 {
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.about-company {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    width: 33.1%;
+    text-align: center;
+}
+.about-company h6 {
+    line-height: 15px;
+}
+i {
+    letter-spacing: 10px;
+}
+footer{
+    background-color: black;
+    
+}
+.image3 {
+    width: 60%;
+}
+.footer-content{
+    color: white;
+    text-align: center;
+}
+.footer-content {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.btn {
+    width: 37px;
+    height: 37px;
+    border: 1px solid white;
+    padding: 10px;
+}
+span {
+    width: 16px;
+    margin-top: 3px;
+    border: 1px solid white;
+    display: block;
+}  
+.btn{
+    display:none;
+}  
+img.img1 {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media(max-width:767px){
+    .hide{
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+    .nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav {
+        width: 0;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .details {
+        margin-bottom: 20px;
+    }
+    .about-company {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.about-section{
+    margin-top: 85px;
+}
+.service-section {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+    .nav ul{
+        position: absolute;
+        width: 100%;
+        top: 78px;
+        left: 0;
+        background-color: blue;
+        display: inline-block;
+        text-align: center;
+        
+    }
+}
